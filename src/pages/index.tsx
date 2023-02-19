@@ -88,7 +88,7 @@ export default function Home() {
                 </div>
           <div className="text-[48px] w-1/2">
             <span>
-              if you're not pouring your soul into it,
+              {"if you're not pouring your soul into it,"}
             </span>
             <span className="italic text-[#FF9A9A]">
               {' '}why bother?

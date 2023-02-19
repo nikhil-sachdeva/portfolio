@@ -25,19 +25,13 @@ export default function Home() {
         <div className={"flex justify-between " + ralewayBold.className}>
 
           <div className="flex">
-            <Tippy render={attrs => (
-              <div className="box text-[11px] opacity-70 bg-black rounded p-1 border-[1px] absolute top-0 " tabIndex="-1" {...attrs}>
-                you're already here silly!
-              </div>
-            )}
-              placement="bottom">
+
               <button className="nav-item group text-[#F9E0C8] font-extrabold transition  mx-2 text-[18px]">
                 <div>
                   home
                 </div>
                 <div className='h-[2px] w-full bg-[#FF8AA2] scale-x-0 group-hover:scale-x-100 duration-200' />
               </button>
-            </Tippy>
 
             <Link href={'/coming_soon'}>
             <button className="group  font-extrabold transition  mx-2 text-[18px]">

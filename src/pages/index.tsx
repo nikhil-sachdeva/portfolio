@@ -98,13 +98,13 @@ const InstaIcon = () => {
   )
 }
 
-const LinkFloater = ({ title }) => {
+const LinkFloater = (props: any) => {
   return (
     <button className="nav-item group text-[#F9E0C8] hover:translate-y-2 font-extrabold transition  mx-2 text-[15px]">
-      <div>
-        {title}
+      <div className='opacity-70 hover:opacity-100'>
+        {props.title}
       </div>
-      <div className='h-[2px] w-full bg-[#FF8AA2] scale-x-0 group-hover:scale-x-100 duration-200' />
+      <div className='h-[2px] w-full bg-[#ff5074] scale-x-0 group-hover:scale-x-100 duration-200' />
     </button>
   )
 }
@@ -125,27 +125,27 @@ export default function Home() {
           <div className="w-[300px] h-[550px] bg-white rounded-[20px]">
 
             <Image
-              className="my-2 mx-auto rounded-[20px] border-8 border-[#FF8AA270]"
+              className="my-2 mx-auto rounded-[20px] border-8 border-[#ff507470]"
               src={profilePic}
               alt="self"
               width={280}
               height={280} />
             <div className='w-[300px]'>
               <div className='px-6 text-[15px] text-black'>
-                hi, i’m nikhil sachdeva. I love building delightful interactions on web and mobile. i'm currently a founding engineer at <a className="text-[#FF8AA2] hover:opacity-30 hover:cursor-pointer" rel="noreferrer" target="_blank" href='https://www.betafi.co'>Betafi</a>. i also write my technical learnings and sometimes make open-source libraries. apart from this, i love travelling and <a className={"text-[#FF8AA2] hover:opacity-30"} rel="noreferrer" target="_blank" href={playlistLink}> curating delhi indie music</a>
+                {"hi, i’m nikhil sachdeva. I love building delightful interactions on web and mobile. i'm currently a founding engineer at "}<a className="text-[#ff5074] hover:opacity-30 hover:cursor-pointer" rel="noreferrer" target="_blank" href='https://www.betafi.co'>Betafi</a>. i also write my technical learnings and sometimes make open-source libraries. apart from this, i love travelling and <a className={"text-[#ff5074] hover:opacity-30"} rel="noreferrer" target="_blank" href={playlistLink}> curating delhi indie music</a>
               </div>
               <div className='flex justify-center w-full'>
                 <div className='flex w-[220px] mt-4 justify-around'>
-                    <button onClick={() => window.open(githubLink, '_blank')} className='bg-[#FF8AA2] opacity-60 rounded-full w-12 h-12 hover:translate-y-[-10px] duration-200'>
+                    <button onClick={() => window.open(githubLink, '_blank')} className='bg-[#ff5074] opacity-70 hover:opacity-100 rounded-full w-12 h-12 hover:translate-y-[-10px] duration-200'>
                       <GithubIcon />
                     </button>
-                  <button onClick={() => window.open(linkedinLink, '_blank')} className='bg-[#FF8AA2] opacity-60 rounded-full w-12 h-12 hover:translate-y-[-10px] duration-200'>
+                  <button onClick={() => window.open(linkedinLink, '_blank')} className='bg-[#ff5074] opacity-70 hover:opacity-100 rounded-full w-12 h-12 hover:translate-y-[-10px] duration-200'>
                     <LinkedInIcon />
                   </button>
-                  <button onClick={() => window.open(twitterLink, '_blank')} className='bg-[#FF8AA2] opacity-60 rounded-full w-12 h-12 hover:translate-y-[-10px] duration-200'>
+                  <button onClick={() => window.open(twitterLink, '_blank')} className='bg-[#ff5074] opacity-70 hover:opacity-100 rounded-full w-12 h-12 hover:translate-y-[-10px] duration-200'>
                     <TwitterIcon />
                   </button>
-                  <button onClick={() => window.open(mediumLink, '_blank')} className='bg-[#FF8AA2] opacity-60 rounded-full w-12 h-12 hover:translate-y-[-10px] duration-200'>
+                  <button onClick={() => window.open(mediumLink, '_blank')} className='bg-[#ff5074] opacity-70 hover:opacity-100 rounded-full w-12 h-12 hover:translate-y-[-10px] duration-200'>
                     <MediumIcon />
                   </button>
                 </div>
@@ -157,7 +157,7 @@ export default function Home() {
               <span>
                 {"if you're not pouring your soul into it,"}
               </span>
-              <span className="italic text-[#FF9A9A]">
+              <span className="italic text-[#ff5074]">
                 {' '}why bother?
               </span>
             </div>
@@ -178,7 +178,7 @@ export default function Home() {
             <LinkFloater title={"developed"} />
           </Link>  with
           <div>
-            <svg className='ml-2' width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg className='ml-2' width="20" height="20" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M27.5656 5.7938C24.5821 -3.88971 14.8857 0.439385 14 5.28114C12.788 0.154576 3.32469 -3.66187 0.434435 5.7938C-2.78214 16.3317 12.8812 25.7874 14 27.3254C15.1188 26.0722 30.7821 16.1609 27.5656 5.7938Z" fill="#FF5A79" />
             </svg>
           </div>

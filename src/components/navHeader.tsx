@@ -9,14 +9,14 @@ import Link from 'next/link';
 const comfortaa = Raleway({ weight: "400", style: ['normal'], subsets: ['latin'] })
 const ralewayBold = Raleway({ weight: "600", style: ['normal'], subsets: ['latin'] })
 
-const LinkFloater = ({ title }) => {
+const LinkFloater = (props: any) => {
     return (
       <button className="nav-item group text-[#F9E0C8] hover:translate-y-2 font-extrabold transition  mx-2 text-[18px]">
-        <div>
-          {title}
-        </div>
-        <div className='h-[2px] w-full bg-[#FF8AA2] scale-x-0 group-hover:scale-x-100 duration-200' />
-      </button>
+      <div className='opacity-70 hover:opacity-100'>
+        {props.title}
+      </div>
+      <div className='h-[2px] w-full bg-[#ff5074] scale-x-0 group-hover:scale-x-100 duration-200' />
+    </button>
     )
   }
 

@@ -19,7 +19,7 @@ export default function ComingSoon() {
 
     <div className={"flex justify-center w-full my-2 text-gray-500 hover:text-white " + comfortaa.className}>
       <div>
-      Friends, Romans, Countrymen - Work is in progress
+      friends, romans, countrymen - work is in progress
       </div>
     </div>
 

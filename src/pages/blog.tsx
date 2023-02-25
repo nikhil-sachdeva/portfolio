@@ -37,8 +37,12 @@ const blogs = [
     }
 ]
 
-export default function ComingSoon() {
+export default function Blog() {
     return (
+        <>
+        <Head>
+        <title>blog</title>
+        </Head>
         <div className={"relative mx-40 mt-8 " + comfortaa.className}>
 
             <NavHeader />
@@ -48,7 +52,7 @@ export default function ComingSoon() {
                 return (
                     <Link key={idx} href={blog.link} target="_blank" className='group hover:shadow-md shadow-white'>
                         <div className='mt-8'> 
-                        <div className='group-hover:text-[#ff5074] text-[18px] group-hover:scale-100 scale-90 duration-200'>
+                        <div className='group-hover:text-[#ff5074] text-[18px] group-hover:scale-100 scale-90 duration-200 text-white'>
                             {blog.title}
                         </div>
                         </div>
@@ -59,5 +63,6 @@ export default function ComingSoon() {
             </div>
             </div>
         </div>
+        </>
     )
 }

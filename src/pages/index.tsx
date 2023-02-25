@@ -101,7 +101,7 @@ const InstaIcon = () => {
 const LinkFloater = (props: any) => {
   return (
     <button className="nav-item group text-[#F9E0C8] hover:translate-y-2 font-extrabold transition  mx-2 text-[15px]">
-      <div className='opacity-70 hover:opacity-100'>
+      <div className='opacity-80 hover:opacity-100'>
         {props.title}
       </div>
       <div className='h-[2px] w-full bg-[#ff5074] scale-x-0 group-hover:scale-x-100 duration-200' />
@@ -125,7 +125,7 @@ export default function Home() {
           <div className="w-[300px] h-[550px] bg-white rounded-[20px]">
 
             <Image
-              className="my-2 mx-auto rounded-[20px] border-8 border-[#ff507470]"
+              className="my-2 mx-auto rounded-[20px] border-8 border-[#ff507470] hover:border-[#ff5074]"
               src={profilePic}
               alt="self"
               width={280}
@@ -135,7 +135,7 @@ export default function Home() {
                 {"hi, i’m nikhil sachdeva. I love building delightful interactions on web and mobile. i'm currently a founding engineer at "}<a className="text-[#ff5074] hover:opacity-30 hover:cursor-pointer" rel="noreferrer" target="_blank" href='https://www.betafi.co'>Betafi</a>. i also write my technical learnings and sometimes make open-source libraries. apart from this, i love travelling and <a className={"text-[#ff5074] hover:opacity-30"} rel="noreferrer" target="_blank" href={playlistLink}> curating delhi indie music</a>
               </div>
               <div className='flex justify-center w-full'>
-                <div className='flex w-[220px] mt-4 justify-around'>
+                <div className='flex w-[220px] mt-2 justify-around'>
                     <button onClick={() => window.open(githubLink, '_blank')} className='bg-[#ff5074] opacity-70 hover:opacity-100 rounded-full w-12 h-12 hover:translate-y-[-10px] duration-200'>
                       <GithubIcon />
                     </button>
@@ -152,7 +152,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className='sm:px-24 px-4 mt-8'>
+          <div className='sm:px-24 px-4 mt-8 scale-90 opacity-80 hover:opacity-100 hover:scale-100 duration-[500ms]'>
             <div className="text-[48px] w-full">
               <span>
                 {"if you're not pouring your soul into it,"}

@@ -44,9 +44,9 @@ export default function ComingSoon() {
             <NavHeader />
             <div className='w-full mt-12 flex justify-center'>
                 <div className='w-[30rem]'>
-            {blogs.map((blog) => {
+            {blogs.map((blog, idx) => {
                 return (
-                    <Link href={blog.link} target="_blank" className='group hover:shadow-md shadow-white'>
+                    <Link key={idx} href={blog.link} target="_blank" className='group hover:shadow-md shadow-white'>
                         <div className='mt-8'> 
                         <div className='group-hover:text-[#ff5074] text-[18px] group-hover:scale-100 scale-90 duration-200'>
                             {blog.title}

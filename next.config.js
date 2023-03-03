@@ -14,6 +14,10 @@ module.exports = {
         protocol: 'https',
         hostname: 'github.com',
       },
+      {
+        protocol: 'http',
+        hostname: 'pixel.nymag.com'
+      }
     ],
   },
 }

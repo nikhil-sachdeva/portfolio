@@ -11,6 +11,11 @@ const comfortaa = Raleway({ weight: "400", style: ['normal'], subsets: ['latin']
 
 const blogs = [
     {
+        title: 'You built it, but would they use it: The story of my first year at Betafi',
+        link: 'https://www.betafi.co/blog-post/learnings-of-an-intern',
+        subtext: 'My journey at Betafi as I dive into the user-research space in my first real full-time job.'
+    },
+    {
         title: 'The brief overlap of Anti-fragility and Machine Learning models',
         link: 'https://nikhilsachdeva57.medium.com/the-brief-overlap-of-anti-fragility-and-machine-learning-models-ceb344d88efc',
         subtext: 'The mental model of Anti-fragility developed by Nassim Nicholas Taleb in his book Anti-fragile is a one-size-fits-all model for timeless'
@@ -48,6 +53,7 @@ export default function Blog() {
             <NavHeader />
             <div className='w-full mt-12 flex justify-center'>
                 <div className='w-[30rem]'>
+                    <div style={{"minHeight" : "101%"}} className='min-h-[101%]'>
             {blogs.map((blog, idx) => {
                 return (
                     <Link key={idx} href={blog.link} target="_blank" className='group hover:shadow-md shadow-white'>
@@ -60,6 +66,7 @@ export default function Blog() {
                     </Link>
                 )
             })}
+            </div>
             </div>
             </div>
         </div>

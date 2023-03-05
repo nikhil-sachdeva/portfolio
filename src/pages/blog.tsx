@@ -52,8 +52,8 @@ export default function Blog() {
 
             <NavHeader />
             <div className='w-full mt-12 flex justify-center'>
-                <div className='w-[30rem]'>
-                    <div style={{"minHeight" : "101%"}} className='min-h-[101%]'>
+                <div className='w-[30rem] mb-24'>
+
             {blogs.map((blog, idx) => {
                 return (
                     <Link key={idx} href={blog.link} target="_blank" className='group hover:shadow-md shadow-white'>
@@ -66,7 +66,6 @@ export default function Blog() {
                     </Link>
                 )
             })}
-            </div>
             </div>
             </div>
         </div>

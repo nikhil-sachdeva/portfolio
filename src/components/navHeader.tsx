@@ -19,7 +19,7 @@ const LinkFloater = (props: any) => {
 }
 
 let howHoverContent = (
-<div className={'group-hover:block shadow-[#ff5074] shadow-lg opacity-90 hidden absolute bg-black top-12 rounded-md text-[13px] w-48 p-2 right-[-4.5rem] text-white ' + raleway.className}>
+<div className={'group-hover:block shadow-[#ff5074] shadow-lg z-10 hidden absolute bg-black top-12 rounded-md text-[13px] w-48 p-2 right-[-4.5rem] text-white ' + raleway.className}>
         This is a WIP portfolio project developed in <span className={ralewayBold.className}>Next + React</span>, with <span className={ralewayBold.className}>Tailwind</span> support. The project is deployed on <span className={ralewayBold.className}>Vercel</span> and is designed in <span className={ralewayBold.className}>Figma.</span> <br></br>
         At some point I might write in detail about eng and design decisions.
         </div>
@@ -60,7 +60,7 @@ export default function NavHeader() {
 
       <div className='flex'>
         {/* <LinkFloater title={"why?"} hover={true} hoverContent={whyHoverContent} /> */}
-    <LinkFloater title={"how"} hover={true} hoverContent={howHoverContent} />
+    <LinkFloater title={"how?"} hover={true} hoverContent={howHoverContent} />
 
 
       </div>

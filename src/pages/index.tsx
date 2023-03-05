@@ -181,19 +181,19 @@ export default function Home() {
             </div>
           </div>
           <div className='sm:px-24 px-4 mt-8'>
-            <div className="text-[48px] w-full">
+            <div className="text-[42px] w-full">
               <span>
-                {"if you're not pouring your soul into it,"}
+                {"if you're not striving for beauty,"}
               </span>
               <span className="italic text-[#ff5074]">
                 {' '}why bother?
               </span>
             </div>
             <div className='mt-4 text-[18px]'>
-              a number of iterations had to die. In order to create something beautiful, It is the death of these workable-but-visibly-mediocre ideas that led to beauty. much like biological evolution, creative endeavours require ruthless elimination of things that just don’t work, mostly without an explanation. And when you look back, you realize the sacrifice of these ideas was necessary, it is the cost of striving for beauty. let this serve as a reminder to pour your soul into every iteration, while knowing that most probably it will die.
+              a number of iterations had to die. In order to create something beautiful, It is the death of these <span className='italic'>workable-but-visibly-mediocre</span> ideas that led to beauty. much like biological evolution, creative endeavours require ruthless elimination of things that just don’t work, mostly without an explanation. And when you look back, you realize the sacrifice of these ideas was necessary, it is the cost of striving for beauty. let this serve as a reminder to pour your soul into every iteration, while knowing that most probably it will die.
             </div>
             <div className='mt-2 text-[18px] italic'>
-            And the eventual satisfaction of creating beauty will outweight the collective mourning for previous iterations.
+            And the eventual satisfaction of creating beauty will outweight the collective mourning for the death of previous iterations.
             </div>
           </div>
         </div>

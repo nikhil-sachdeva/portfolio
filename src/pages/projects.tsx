@@ -11,15 +11,20 @@ const comfortaa = Raleway({ weight: "400", style: ['normal'], subsets: ['latin']
 
 export default function ComingSoon() {
   return (
+    <>
+    <Head>
+        <title>projects</title>
+    </Head>
       <div className="relative mx-40 mt-8">
 
+<div  style={{"position" : "inherit"}} className='z-10'>
     <NavHeader/>
 
-
-        <div className='sm:flex mt-20'>
+    </div>
+        <div className='sm:flex mt-20 z-1'>
         {projects.map((project, idx) => {
             return(
-                <Link key={idx} href={project.link} rel="noreferrer" target="_blank" className={'group rounded-xl border border-white h-[520px] w-[350px] p-4 mx-4 relative opacity-80 hover:opacity-100 scale-95 hover:scale-100 duration-200 ' + comfortaa.className}>
+                <Link key={idx} href={project.link} rel="noreferrer" target="_blank" className={'group rounded-xl border border-white h-[520px] w-[350px] z-1 p-4 mx-4 relative opacity-80 hover:opacity-100 scale-95 hover:scale-100 duration-200 ' + comfortaa.className}>
 
                     <div className='w-full flex justify-center'>
                         <Image width={200} height={200} alt="project_image" src={project.image_url}/>
@@ -41,5 +46,6 @@ export default function ComingSoon() {
         </div>
 
       </div>
+      </>
   )
 }

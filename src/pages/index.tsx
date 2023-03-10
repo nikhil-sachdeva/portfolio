@@ -160,7 +160,7 @@ export default function Home() {
               height={280} />
             <div className='w-[300px]'>
               <div className='px-6 text-[15px] text-black'>
-                {"hi, i’m nikhil sachdeva. I love building delightful interactions on web and mobile. i'm currently a founding engineer at "}<a className="text-[#ff5074] hover:opacity-30 hover:cursor-pointer" rel="noreferrer" target="_blank" href='https://www.betafi.co'>Betafi</a>. i also write my technical learnings and sometimes make open-source libraries. apart from this, i love travelling and <a className={"text-[#ff5074] hover:opacity-30"} rel="noreferrer" target="_blank" href={playlistLink}> curating delhi indie music</a>
+                {"hi, i’m nikhil sachdeva. I love building delightful interactions on web and mobile. i currently work as a founding engineer at "}<a className="text-[#ff5074] hover:opacity-30 hover:cursor-pointer" rel="noreferrer" target="_blank" href='https://www.betafi.co'>Betafi</a>. i also write my technical learnings and sometimes make open-source libraries. apart from this, i love travelling and <a className={"text-[#ff5074] hover:opacity-30"} rel="noreferrer" target="_blank" href={playlistLink}> curating delhi indie music</a>
               </div>
               <div className='flex justify-center w-full'>
                 <div className='flex w-[220px] mt-2 justify-around'>
@@ -190,10 +190,10 @@ export default function Home() {
               </span>
             </div>
             <div className='mt-4 text-[18px]'>
-              a number of iterations had to die, in order to create something beautiful. It is the death of these <span className='italic'>workable-but-visibly-mediocre</span> ideas that led to beauty. much like biological evolution, creative endeavours require ruthless elimination of things that just don’t work, mostly without an explanation. And when you look back, you realize the sacrifice of these ideas was necessary, it is the cost of striving for beauty. let this serve as a reminder to pour your soul into every iteration, while knowing that most probably it will die.
+              a number of iterations had to die, in order to create something beautiful. It is the death of these <span className='italic'>workable-but-visibly-mediocre</span> ideas that led to beauty. much like biological evolution, creative endeavours require ruthless elimination of things that just don’t work, mostly without an explanation. and when you look back, you realize the sacrifice of these ideas was necessary, it is the cost of striving for beauty. let this serve as a reminder to pour your soul into every iteration, while knowing that most probably it will die.
             </div>
             <div className='mt-2 text-[18px] italic'>
-              And the eventual satisfaction of creating beauty will outweight the collective mourning for the death of previous iterations.
+              and the eventual satisfaction of creating beauty will outweight the collective mourning for the death of previous iterations.
             </div>
           </div>
         </div>

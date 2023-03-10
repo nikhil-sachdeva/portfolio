@@ -57,9 +57,9 @@ const LinkedInIcon = () => {
 }
 
 const MediumIcon = () => {
-  return(
-<svg xmlns="http://www.w3.org/2000/svg" className='m-auto h-full'  viewBox="0 0 72 72" width="32" height="32">
-  <path fill='white' d="M45.049,14C57.06,14,58,14.94,58,26.951v18.098C58,57.06,57.06,58,45.049,58H26.951C14.94,58,14,57.06,14,45.049V26.951	C14,14.94,14.94,14,26.951,14H45.049z M29.713,44.151c4.502,0,8.151-3.649,8.151-8.151c0-4.502-3.649-8.151-8.151-8.151	c-4.502,0-8.151,3.649-8.151,8.151C21.562,40.502,25.212,44.151,29.713,44.151z M42.713,43.757c2.228,0,4.034-3.473,4.034-7.757	c0-4.284-1.806-7.757-4.034-7.757c-2.228,0-4.034,3.473-4.034,7.757C38.679,40.284,40.485,43.757,42.713,43.757z M48.98,42.928	c0.775,0,1.403-3.102,1.403-6.928s-0.628-6.928-1.403-6.928c-0.775,0-1.403,3.102-1.403,6.928S48.205,42.928,48.98,42.928z"/></svg>
+  return (
+    <svg xmlns="http://www.w3.org/2000/svg" className='m-auto h-full' viewBox="0 0 72 72" width="32" height="32">
+      <path fill='white' d="M45.049,14C57.06,14,58,14.94,58,26.951v18.098C58,57.06,57.06,58,45.049,58H26.951C14.94,58,14,57.06,14,45.049V26.951	C14,14.94,14.94,14,26.951,14H45.049z M29.713,44.151c4.502,0,8.151-3.649,8.151-8.151c0-4.502-3.649-8.151-8.151-8.151	c-4.502,0-8.151,3.649-8.151,8.151C21.562,40.502,25.212,44.151,29.713,44.151z M42.713,43.757c2.228,0,4.034-3.473,4.034-7.757	c0-4.284-1.806-7.757-4.034-7.757c-2.228,0-4.034,3.473-4.034,7.757C38.679,40.284,40.485,43.757,42.713,43.757z M48.98,42.928	c0.775,0,1.403-3.102,1.403-6.928s-0.628-6.928-1.403-6.928c-0.775,0-1.403,3.102-1.403,6.928S48.205,42.928,48.98,42.928z" /></svg>
   )
 }
 
@@ -146,13 +146,13 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className="relative mx-12 lg:mx-40 mt-8 text-[#F9E0C8]">
+      <div className="relative mx-4 sm:mx-12 lg:mx-40 mt-8 text-[#F9E0C8]">
 
-    <NavHeader/>
-        <div className={"sm:flex mt-32 " + comfortaa.className}>
-          <div className="w-[300px] h-[550px] bg-white rounded-[20px] hover:shadow-[#ff5074] hover:shadow-lg cursor-pointer hover:translate-y-[-10px] duration-200">
+        <NavHeader />
+        <div className={"md:flex md:justify-center mt-32 " + comfortaa.className}>
+          <div className="w-[300px] h-[550px] m-auto table bg-white rounded-[20px] hover:shadow-[#ff5074] hover:shadow-lg cursor-pointer hover:translate-y-[-10px] duration-200">
 
-          <Image
+            <Image
               className="my-[10px] mx-auto rounded-[20px] border-8 border-[#ff507480]"
               src={profilePic}
               alt="self"
@@ -164,9 +164,9 @@ export default function Home() {
               </div>
               <div className='flex justify-center w-full'>
                 <div className='flex w-[220px] mt-2 justify-around'>
-                    <Link rel="noreferrer" target="_blank" href={githubLink} className='bg-[#ff5074] opacity-70 hover:opacity-100 rounded-full w-12 h-12 hover:translate-y-[-10px] duration-200'>
-                      <GithubIcon />
-                    </Link>
+                  <Link rel="noreferrer" target="_blank" href={githubLink} className='bg-[#ff5074] opacity-70 hover:opacity-100 rounded-full w-12 h-12 hover:translate-y-[-10px] duration-200'>
+                    <GithubIcon />
+                  </Link>
                   <Link rel="noreferrer" target="_blank" href={linkedinLink} className='bg-[#ff5074] opacity-70 hover:opacity-100 rounded-full w-12 h-12 hover:translate-y-[-10px] duration-200'>
                     <LinkedInIcon />
                   </Link>
@@ -180,7 +180,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className='sm:px-24 px-4 mt-8'>
+          <div className='xl:px-16 px-8 mt-8'>
             <div className="text-[42px] w-full">
               <span>
                 {"if you're not striving for beauty,"}
@@ -193,7 +193,7 @@ export default function Home() {
               a number of iterations had to die, in order to create something beautiful. It is the death of these <span className='italic'>workable-but-visibly-mediocre</span> ideas that led to beauty. much like biological evolution, creative endeavours require ruthless elimination of things that just don’t work, mostly without an explanation. And when you look back, you realize the sacrifice of these ideas was necessary, it is the cost of striving for beauty. let this serve as a reminder to pour your soul into every iteration, while knowing that most probably it will die.
             </div>
             <div className='mt-2 text-[18px] italic'>
-            And the eventual satisfaction of creating beauty will outweight the collective mourning for the death of previous iterations.
+              And the eventual satisfaction of creating beauty will outweight the collective mourning for the death of previous iterations.
             </div>
           </div>
         </div>

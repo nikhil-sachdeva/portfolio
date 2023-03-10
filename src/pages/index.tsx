@@ -190,7 +190,7 @@ export default function Home() {
               </span>
             </div>
             <div className='mt-4 text-[18px]'>
-              a number of iterations had to die. In order to create something beautiful, It is the death of these <span className='italic'>workable-but-visibly-mediocre</span> ideas that led to beauty. much like biological evolution, creative endeavours require ruthless elimination of things that just don’t work, mostly without an explanation. And when you look back, you realize the sacrifice of these ideas was necessary, it is the cost of striving for beauty. let this serve as a reminder to pour your soul into every iteration, while knowing that most probably it will die.
+              a number of iterations had to die, in order to create something beautiful. It is the death of these <span className='italic'>workable-but-visibly-mediocre</span> ideas that led to beauty. much like biological evolution, creative endeavours require ruthless elimination of things that just don’t work, mostly without an explanation. And when you look back, you realize the sacrifice of these ideas was necessary, it is the cost of striving for beauty. let this serve as a reminder to pour your soul into every iteration, while knowing that most probably it will die.
             </div>
             <div className='mt-2 text-[18px] italic'>
             And the eventual satisfaction of creating beauty will outweight the collective mourning for the death of previous iterations.

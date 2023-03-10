@@ -163,7 +163,7 @@ export default function Home() {
                 {"hi, i’m nikhil sachdeva. I love building delightful interactions on web and mobile. i currently work as a founding engineer at "}<a className="text-[#ff5074] hover:opacity-30 hover:cursor-pointer" rel="noreferrer" target="_blank" href='https://www.betafi.co'>Betafi</a>. i also write my technical learnings and sometimes make open-source libraries. apart from this, i love travelling and <a className={"text-[#ff5074] hover:opacity-30"} rel="noreferrer" target="_blank" href={playlistLink}> curating delhi indie music</a>
               </div>
               <div className='flex justify-center w-full'>
-                <div className='flex w-[220px] mt-2 justify-around'>
+                <div className='flex w-[220px] my-4 justify-around'>
                   <Link rel="noreferrer" target="_blank" href={githubLink} className='bg-[#ff5074] opacity-70 hover:opacity-100 rounded-full w-12 h-12 hover:translate-y-[-10px] duration-200'>
                     <GithubIcon />
                   </Link>
